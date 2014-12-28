@@ -32,7 +32,7 @@ class Opencv < Formula
   depends_on "libdc1394"  => :optional
   depends_on "numpy"      => :python
   depends_on "openexr"    => :recommended
-  depends_on "openni"     => :optional
+#  depends_on "openni"     => :optional
   depends_on "pkg-config" => :build
   depends_on :python
   depends_on "qt"         => :optional
