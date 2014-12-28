@@ -2,13 +2,12 @@ require 'formula'
 
 class Opencv < Formula
   homepage 'http://opencv.org/'
-#  url 'https://github.com/Itseez/opencv/archive/2.4.9.tar.gz'
-#  sha1 'd16ced627db17f9864c681545f18f030c7a4cc0b'
+  url 'https://github.com/Itseez/opencv/archive/2.4.9.tar.gz'
+  sha1 'd16ced627db17f9864c681545f18f030c7a4cc0b'
 #  CUDA needs 2.4.10 (see #1228)
 #  url 'https://github.com/Itseez/opencv/archive/2.4.10.tar.gz'
 #  sha1 'a0c2d5944364fc4f26b6160b33c03082b1fa08c1'
-#  head 'https://github.com/Itseez/opencv.git'
-  url 'https://github.com/Itseez/opencv.git'
+  head 'https://github.com/Itseez/opencv.git'
 
   option "32-bit"
   option "with-java", "Build with Java support"
